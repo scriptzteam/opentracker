@@ -8,7 +8,7 @@ cvs -d :pserver:cvs@cvs.fefe.de:/cvs -z9 co libowfat
 cd libowfat
 make
 cd ..
-cvs -d:pserver:anoncvs@cvs.erdgeist.org:/home/cvsroot co opentracker
+git clone https://github.com/scriptzteam/opentracker
 cd opentracker
 make
 ./opentracker
